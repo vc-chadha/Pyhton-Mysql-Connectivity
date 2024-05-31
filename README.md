@@ -9,3 +9,16 @@ MySQL and Python connectivity refers to the ability to establish a connection be
 - Improves overall data management capabilities.
 - The input-ed Data can further be stored in a Microsoft Excel File via help of 'Export' file.
 - Export file is there intiate data storage from MySQL to Excel Sheet.
+
+Note : MySQL Driver & Pandas is required in order to execute the following code
+
+1) To install MySQL driver , go to command prompt and enter the following command :-
+   
+       '''
+       python -m pip install mysql.connector-python
+       '''
+2) To install Pandas pip , go to command prompt and use following command :-
+
+       '''
+       pip install pandas
+       '''
